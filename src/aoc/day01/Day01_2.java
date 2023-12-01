@@ -15,7 +15,7 @@ public class Day01_2 {
     }
 
     private static Integer changeStringForNumber(String s){
-        TreeMap<String, String> numbersMap = new TreeMap<>(Collections.reverseOrder());
+        Map<String, String> numbersMap = new HashMap<>();
         numbersMap.put("one", "1");
         numbersMap.put("two", "2");
         numbersMap.put("three", "3");
